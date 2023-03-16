@@ -1,0 +1,16 @@
+
+
+body {
+    color: white;
+    background-image: url("assets/home/background-home-mobile.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: grid;
+    margin: auto;
+    min-height: 100vh;
+    
+}
