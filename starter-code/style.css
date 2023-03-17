@@ -1,21 +1,26 @@
+:root {
+    --fs-spectral: 'Spectral SC', serif;
+    --fs-sofia: 'Sofia Sans Extra Condensed', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
 
 
 body {
-    color: white;
-    margin: auto;
-    padding: 0;
-    font-family: Barlow;
     
+    color: white;
+    font-family: var(--fs-sofia);
 }
 
 main {
     display: grid;
-    justify-content: center;
     background-color: black;
     background-image: url("assets/home/background-home-mobile.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    
     min-height: 100vh;
     min-width: 375px;
 }
@@ -42,11 +47,17 @@ main {
 
 .sotext {
     justify-self: center;
+    font-size: 1rem;
+    letter-spacing: 2px;
 }
 .space {
     justify-self: center;
-    font-size: 2rem;
+    font-size: 5rem;
+    font-family: var(--fs-spectral);
+    font-weight: 200;
+    letter-spacing: 2px;
 }
+
 p{
     padding: 2rem;
     justify-self: center;
